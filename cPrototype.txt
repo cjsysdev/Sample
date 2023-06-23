@@ -1,0 +1,6 @@
+Function prototype tells compiler about number of parameters function takes, data-types of parameters and return type of function.
+By using this information, compiler cross checks function parameters and their data-type with function definition and function call.
+If we ignore function prototype, program may compile with warning, and may work properly.
+But some times, it will give strange output and it is very hard to find such programming mistakes.
+Above program checks existence of file, provided from command line, if given file is exist, then the program prints “file exist”, otherwise it prints appropriate error message.
+Let us provide a filename, which does not exist in file system, and check the output of program on x86_64 architecture.

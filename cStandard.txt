@@ -1,0 +1,6 @@
+The latest C standard is ISO/IEC 9899:2011, also known as C11 as the final draft was published in 2011. Before C11, there was C99. The C11 final draft is available here. See this for a complete history of C standards.
+
+Can we know the behavior of all programs from C standard?
+C standard leaves some behavior of many C constructs as undefined and some as unspecified to simplify the specification and allow some flexibility in implementation.
+For example, in C the use of any automatic variable before it has been initialized yields undefined behavior and the order of evaluations of subexpressions is unspecified.
+This specifically frees the compiler to do whatever is easiest or most efficient, should such a program be submitted.
